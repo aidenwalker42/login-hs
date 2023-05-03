@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Sunie</h1>
+    <form id="form">
+        <label for="uname-register"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" id="uname-register" name="uname-register" required>
+    
+        <label for="psw-register"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" id="psw-register" name="psw-register" required>
+
+        <label for="input-register-code"><b>Code</b></label>
+        <input type="text" placeholder="Enter Register Code" id="input-register-code" name="input-register-code" required>
+    
+        <button type="submit" id="registerButton">Create Account</button>
+    </form>
+    <br />
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="psw-login" name="password" required>
+        
+        <button type="submit" id="loginButton">Login</button>
+</form>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="global.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

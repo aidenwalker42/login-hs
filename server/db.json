@@ -1,0 +1,29 @@
+[
+  {
+    "username": "Aiden",
+    "password": "hif121"
+  },
+  {
+    "username": "akw",
+    "password": "hif"
+  },
+  {
+    "username": "akww",
+    "passHash": "$2a$05$QX0..a35lqcJa5pYxlDyX.HaVhz95fESUR3FOmEQnxowbW2IAr.Sa"
+  },
+  {
+    "username": "lmao",
+    "passHash": "$2a$05$XcRu1qKYLCONN7QcqS2Px.sSIk0NrZK8Tkh01XTZArcpOFdwQW5QK",
+    "roles": []
+  },
+  {
+    "username": "",
+    "passHash": "$2a$05$il7nL1UUI1yWlIC4ixpcFOEVUVX.KqPcJHMde.z1ygo9CTbU.k2RK",
+    "roles": []
+  },
+  {
+    "username": "asdf",
+    "passHash": "$2a$05$RIU1znFE5vC0d/VZ438UIOfMRHRhc9eSFAskfH/.ESK6aCuDpXri.",
+    "roles": []
+  }
+]

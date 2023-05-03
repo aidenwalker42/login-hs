@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>logged in as <div id="username-header"></div></h1>
+    <button id="admin-panel">
+        Admin Panel
+    </button>
+    <div id="admin-panel">
+        <div id="user-list"></div>
+        <!-- options for roles -->
+        <select id="role-selector">
+            <option value="worker">Worker</option>
+            <option value="client">Client</option>
+            <option value="admin">Admin</option>
+        </select>
+        <button id="register-code">Generate register code</button>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="global.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
